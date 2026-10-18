@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML5 - ClickLab</title>
+</head>
+<body>
+    <h1>Tablas en HTML5 - ClickLab</h1>
+
+    <table id="equipos_clicklab" border="1">
+        <tr>
+            <th colspan="3">Equipos de ClickLab</th>
+        </tr>
+        <tr>
+            <th>Producto</th>
+            <th>Categoría</th>
+            <th>Uso principal</th>
+        </tr>
+        <tr>
+            <td>Canon EOS R50</td>
+            <td rowspan="2">Cámaras Digitales</td>
+            <td>Fotografía y video 4K</td>
+        </tr>
+        <tr>
+            <td>Nikon Z30</td>
+            <td>Creación de contenido</td>
+        </tr>
+        <tr>
+            <td>Lente 50mm f/1.8</td>
+            <td>Accesorios</td>
+            <td>Retratos y desenfoque</td>
+        </tr>
+    </table>
+
+    <br>
+
+    <table id="ingresos_inventario" border="1">
+        <caption>Ingresos de Inventario ClickLab</caption>
+        <thead>
+            <tr>
+                <th>Equipo</th>
+                <th>Proveedor</th>
+                <th>Fecha de ingreso</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Cámara Analógica Pentax K1000</td>
+                <td>RetroCam Studio</td>
+                <td>2026-10-01</td>
+            </tr>
+            <tr>
+                <td>Trípode Profesional K&amp;F</td>
+                <td>OptiGear</td>
+                <td>2026-10-08</td>
+            </tr>
+            <tr>
+                <td>Sony Alpha a6400</td>
+                <td>Sony Pro Partner</td>
+                <td>2026-10-13</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Total de ingresos registrados</th>
+                <td>3</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
