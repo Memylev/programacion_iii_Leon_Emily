@@ -1,0 +1,66 @@
+.secerta{
+    visibility: hidden;
+}
+
+.caja{
+    position: static;
+    background-color: blue;
+    color: aliceblue;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.especial{
+    position: relative;
+    top: 15px;
+    left: 30px;
+    background-color: blue;
+}
+
+.tarjeta-relativa{
+    position: absolute;
+    width: 300px;
+    padding: 30px;
+    border: 2px solid red;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+.etiqueta{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgb(160, 64, 64);
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.boton-fijo{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 12px 18px;
+    background-color: yellow;
+    color: black;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    padding: 20px;
+    background-color: black;
+}
+nav a{
+    color: yellow;
+    margin-right: 20px;
+}
+
+seccion{
+    min-height: 450px;
+    padding: 30px;
+    border-bottom: 1pc solid #647464;
+}
