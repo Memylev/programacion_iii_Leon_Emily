@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introducción a JS - ClickLab</title>
+    <script>
+        alert('¡Bienvenida a ClickLab!');
+        console.log('Saludo desde el inicio de la página ClickLab');
+    </script>
+</head>
+<body>
+    <h1>Incluir JS en documento HTML - ClickLab</h1>
+    <h2>Modo Inline</h2>
+    <button onclick="alert('¡Oferta en cámaras ClickLab!')">Mostrar Mensaje</button>
+    <input type="text"
+        oninput="console.log('Buscando producto:', this.value)"
+        placeholder="Buscar cámara o lente...">
+    <input type="text"
+        onchange="console.log('Producto guardado en ClickLab:', this.value)"
+        placeholder="Escribe modelo y haz clic fuera...">
+    <input type="text"
+        onfocus="console.log('El cliente está escribiendo en ClickLab...')"
+        onblur="alert('¡Atención! Saliste del campo de búsqueda ClickLab.')"
+        placeholder="Haz clic dentro y fuera...">
+
+    <script src="01_incluir_mp_emily_leon.js"></script>
+</body>
+</html>
