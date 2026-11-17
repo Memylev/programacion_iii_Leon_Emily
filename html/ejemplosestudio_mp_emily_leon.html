@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickLab - Tienda Fotográfica</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center;">ClickLab</h1>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#productos">Productos</a>
+            <a href="#horarios">Horarios</a>
+            <a href="#pedido">Pedido</a>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <img src="https://i.pinimg.com/originals/be/30/d3/be30d35790c948ba36a5138a1a6c48f2.jpg"
+             alt="Cámaras retro y digitales en ClickLab"
+             width="400">
+    </section>
+
+    <section id="productos">
+        <h2>Productos que ofrecemos</h2>
+        <ul>
+            <li>Cámaras Digitales</li>
+            <li>Cámaras Analógicas 35mm</li>
+            <li>Lentes 50mm</li>
+            <li>Trípodes</li>
+            <li>Baterías Li-ion</li>
+        </ul>
+    </section>
+
+    <section id="horarios">
+        <h2>Atención y horarios</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Servicio</th>
+                    <th>Días</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Asesoría Digital</td>
+                    <td>Lunes y Miércoles</td>
+                    <td>10:00 a 18:00</td>
+                </tr>
+                <tr>
+                    <td>Laboratorio Analógico</td>
+                    <td>Martes y Jueves</td>
+                    <td>10:00 a 18:00</td>
+                </tr>
+                <tr>
+                    <td>Mantenimiento de Equipos</td>
+                    <td>Viernes</td>
+                    <td>09:00 a 17:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="pedido">
+        <h2>Reserva de Equipo</h2>
+        <form>
+            <label>Nombre completo:</label>
+            <input type="text">
+            <br><br>
+            <label>Correo electrónico:</label>
+            <input type="email">
+            <br><br>
+            <label>Categoría de interés:</label>
+            <select>
+                <option>Cámaras Digitales</option>
+                <option>Cámaras Analógicas</option>
+                <option>Lentes</option>
+                <option>Trípodes</option>
+                <option>Baterías y Memorias</option>
+            </select>
+            <br><br>
+            <label>Nivel:</label>
+            <select>
+                <option>Principiante</option>
+                <option>Intermedio</option>
+                <option>Profesional</option>
+            </select>
+            <br><br>
+            <label>Horario preferido:</label>
+            <input type="text">
+            <br><br>
+            <button type="submit">Reservar equipo</button>
+        </form>
+    </section>
+</body>
+</html>
