@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Inventario - ClickLab</title>
+    <script src="06_crud_arreglo_mp_emily_leon.js" defer></script>
+</head>
+<body>
+    <h1>Inventario ClickLab</h1>
+    <h2 id="tituloFormulario">Registrar Equipo</h2>
+    <form id="formulario">
+        <input type="text" id="nombre" placeholder="Nombre del equipo" required>
+        <select id="categoria">
+            <option value="Digital">Digital</option>
+            <option value="Retro">Retro / Analógica</option>
+            <option value="Accesorios">Accesorios</option>
+        </select>
+        <select id="estado">
+            <option value="Disponible">Disponible</option>
+            <option value="Agotado">Agotado</option>
+            <option value="Mantenimiento">Mantenimiento</option>
+        </select>
+        <button type="submit" id="guardar">Agregar</button>
+        <button type="button" id="cancelar" hidden>Cancelar</button>
+    </form>
+
+    <h2>Equipos Registrados en ClickLab</h2>
+    <h2 id="cantidad">Cantidad: 0</h2>
+    <div id="contenedor"></div>
+</body>
+</html>
